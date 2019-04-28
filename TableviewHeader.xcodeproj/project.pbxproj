@@ -15,6 +15,7 @@
 		C13F138B22760F70004BABBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C13F138922760F70004BABBA /* LaunchScreen.storyboard */; };
 		C13F139622760F71004BABBA /* TableviewHeaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13F139522760F71004BABBA /* TableviewHeaderTests.swift */; };
 		C13F13A122760F71004BABBA /* TableviewHeaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13F13A022760F71004BABBA /* TableviewHeaderUITests.swift */; };
+		C13F13AF22761576004BABBA /* ListviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13F13AE22761576004BABBA /* ListviewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C13F139C22760F71004BABBA /* TableviewHeaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableviewHeaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C13F13A022760F71004BABBA /* TableviewHeaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableviewHeaderUITests.swift; sourceTree = "<group>"; };
 		C13F13A222760F71004BABBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C13F13AE22761576004BABBA /* ListviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListviewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				C13F137D22760F6F004BABBA /* AppDelegate.swift */,
 				C13F137F22760F6F004BABBA /* ViewController.swift */,
+				C13F13AE22761576004BABBA /* ListviewCell.swift */,
 				C13F138122760F6F004BABBA /* Main.storyboard */,
 				C13F138722760F70004BABBA /* Assets.xcassets */,
 				C13F138922760F70004BABBA /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C13F13AF22761576004BABBA /* ListviewCell.swift in Sources */,
 				C13F138022760F6F004BABBA /* ViewController.swift in Sources */,
 				C13F138622760F6F004BABBA /* TableviewHeader.xcdatamodeld in Sources */,
 				C13F137E22760F6F004BABBA /* AppDelegate.swift in Sources */,
